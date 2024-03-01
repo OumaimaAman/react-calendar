@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  position: relative;
+  background-color: #f9fafb;
+}
+
+.heures {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.heure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  width: 3rem;
+  color: #505050;
+}
+
+.lignesHorizontales {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+}
+
+.ligneHorizontale {
+  border-top: 1px solid #d1d5db;
+  flex-grow: 1;
+}
+
+.evenements {
+  margin: 0 0 0 2rem;
+  flex-grow: 1;
+  position: relative;
+}
+
+.evenement {
+  position: absolute;
+  border: 0.01px solid #d1d5db;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 2px;
+  text-align: center;
+  white-space: nowrap;
+}

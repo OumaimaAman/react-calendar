@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import CalendarMonth from './components/CalendarMonth';
+import Calendar from './components/Calendar';
 
 
 function App() {
   return (
     <div className="App">
-      <CalendarMonth currentDate={new Date()}  />
+      <Calendar />
     </div>
   );
 }

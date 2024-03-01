@@ -1,0 +1,22 @@
+.date-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 1rem;
+}
+
+.nav-icon {
+  cursor: pointer;
+}
+
+.current-date {
+  font-weight: bold;
+}
+
+.center-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
